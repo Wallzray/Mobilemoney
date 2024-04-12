@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="admin/css/w3.css">
+    <style>
+        body{
+            text-align: center;
+        }
+        form{
+            min-width: 500px;
+            min-height: 500px;
+        }
+    </style>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>Landing Page</title>
+</head>
+<body>
+<span style="font-family:algerian; color: rgb(26, 26, 247); font-size: 50px;"> THE MOBILE MONEY ACCOUNTANT</span>
+
+<div class="w3-card-4">
+
+    <div class="w3-container w3-blue"> Welcome! Please log in</div>
+
+    <form action="Auth.php" method="post" class="w3-container">
+            <label>Enter Username</label><br>
+            <input type="text" name="username" class="w3-input">
+          
+            <label>Enter Password</label><br>
+            <input type="password" name="password" class="w3-input"> <br>
+       <div class="row">
+            <input type="submit" value="ENTER" name= "submit">
+        </div>
+        
+    </form>
+
+</div>
+
+</body>

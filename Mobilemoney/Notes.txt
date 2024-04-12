@@ -1,0 +1,5 @@
+Modify the currency logic
+Add icons to the currencies,service providers, just to "beautify"
+Improve the user's navigation
+Add a provision for users.
+Change Telephone column to Id and include placeholder for Id input.
